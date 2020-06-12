@@ -19,7 +19,9 @@
          s.join(u)
          s.emit('logged_in')
          socketMap[s.id] = u
+         
          console.log(socketMap)
+
        }
      
        socket.on('login', (data) => {
