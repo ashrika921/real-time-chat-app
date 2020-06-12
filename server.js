@@ -6,7 +6,7 @@
      
      const server = http.createServer(app)
      const io = socketio(server)
-     
+     const PORT = process.env.PORT || 4444
      let users = {
        arnav: 'agag123',
      }
@@ -49,6 +49,6 @@
      
      app.use('/', express.static(__dirname + '/public'))
      
-     server.listen(3344, () => {
-       console.log('Started on http://localhost:3344')
+     server.listen(PORT, () => {
+       console.log('Started on http://localhost:${PORT}')
      })
