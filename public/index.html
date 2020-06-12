@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +9,42 @@
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="/socket.io/socket.io.js"></script>
   <script defer src="script.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Socket.IO Sample</h1>
+  <img src="./abstract-background-cover.png" alt="">
+  <div class="headi">
+    <!--<h1>Chatting App</h1>-->
+    <img src="./chat-messaging-app-logo.png">
+  </div>
 
   <div id="loginBox">
     <input id="inpUsername" placeholder="Username">
+    <br>
+    <br>
     <input id="inpPassword" placeholder="Password" type="password">
+    <br>
+    <br>
     <button id="btnStart"> START </button>
+    <br>
   </div>
+
 
   <div id="chatBox">
     <input id="inpToUser" placeholder="Send to (default everyone)">
+    <br>
+    <br>
     <input id="inpNewMsg" placeholder="New Message">
+    <br>
+    <br>
     <button id="btnSendMsg">SEND</button>
     <ul id="ulMsgs"></ul>
+    <ul id="sendMsgs"></ul>
+    <br>
   </div>
 
 </body>
+
 </html>

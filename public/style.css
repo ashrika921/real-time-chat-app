@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+img{
+    text-align: center;
+    width:80%;
+    height:30%;
+    margin-top: 20px;;
+}
+.headi{
+    text-align: center;
+}
+#loginBox{
+    border:1px solid black;
+    padding:30px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: peru;
+}
+div{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+#chatBox{
+    border:1px solid black;
+    padding:30px;
+    text-align: center;
+    margin-top: 70px;
+    background-color: royalblue;
+}
