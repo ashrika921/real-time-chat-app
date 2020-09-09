@@ -1,6 +1,21 @@
-body{
+/*body{
     background-color: aqua;
-}
+} */
+body {
+    background-image: url("https://image.shutterstock.com/image-vector/speech-bubble-background-cloud-colorful-600w-144675881.jpg");
+   /* background-color: #cccccc;  */
+  /* background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;   */
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   }
+   
 img{
     text-align: center;
     width:80%;
@@ -11,20 +26,20 @@ img{
     text-align: center;
 }
 #loginBox{
-    border:1px solid black;
+   /* border:1px solid white;  */
     padding:30px;
     text-align: center;
     margin-top: 40px;
-    background-color: peru;
+   /* background-color: peru;  */
 }
 div{
     margin-left: 500px;
     margin-right: 500px;
 }
 #chatBox{
-    border:1px solid black;
+   /* border:1px solid white;  */
     padding:30px;
     text-align: center;
     margin-top: 70px;
-    background-color: royalblue;
+    /*background-color: royalblue;*/
 }
